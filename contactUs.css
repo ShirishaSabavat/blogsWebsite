@@ -1,0 +1,44 @@
+.blog-home-page-logo {
+  width: 60px;
+  height: 40px;
+}
+.about-us-title {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about-us-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.contact-us-container {
+  background-image: url("https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  height: 60vh;
+}
+.contact-us-heading1 {
+  color: white;
+  font-size: 60px;
+  font-family: Roboto;
+  text-align: center;
+}
+.send-button {
+  color: white;
+  font-weight: bold;
+  background-color: lightskyblue;
+  border-width: 0px;
+  border-radius: 5px;
+  width: 90px;
+  height: 35px;
+  margin: 20px 0px 20px 0px;
+}
+.err_form{
+  top: 12px;
+  color: rgb(216, 15, 15);
+  font-size: 15px;
+  font-family: Helvetica;
+}

@@ -1,0 +1,20 @@
+.blog-home-page-logo {
+  width: 60px;
+  height: 40px;
+}
+.people-image {
+  width: 400px;
+  height: 300px;
+}
+.about-us-title {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about-us-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.blog-home-page-logo {
+  width: 60px;
+  height: 40px;
+}
+
+.home-page-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.carousel-images {
+  height: 550px;
+  width: 100%;
+}
+.latest-blog-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.latest-blog-card {
+  border-radius: 16px;
+}
+.categories-card-images {
+  width: 110px;
+  height: 110px;
+  border-radius: 55px;
+}
+.categories-box-types {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.categories-small-boxes {
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 70px;
+  margin-right: 10px;
+  width: 155px;
+}
+.latest-blog-card-images {
+  height: 200px;
+}
+.latest-blogs-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-card-details {
+  padding: 25px;
+}
+.some-content-image {
+  height: 300px;
+  width: 100%;
+}
+.some-content-card {
+  padding: 25px;
+  border-radius: 20px;
+}
+.footer-section {
+  color: black;
+}
+
+.menu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.custom-button {
+  color: white;
+  background-image: linear-gradient(#d0b200, #a58d00);
+  width: 200px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin: 50px;
+}
+.user-list {
+  list-style-type: none;
+  padding: 20px;
+}
+.likeButtonWhite{
+  border: 1px solid rgb(241, 237, 237);
+  background-color: white;
+  padding: 5px;
+  width: 80px;
+  border-radius: 8px;
+}
+.likeButtonBlue{
+  border: 1px solid rgb(241, 237, 237);
+  background-color: skyblue;
+  padding: 5px;
+  width: 80px;
+  border-radius: 8px;
+  color: white;
+}
+
+
+    </style>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+         <div class="container">
+           <a class="navbar-brand" href="#">
+             <img
+               src="https://www.onblastblog.com/wp-content/uploads/2017/08/blogger-logo-624x357.jpg"
+               class="blog-home-page-logo"
+             />
+           </a>
+           <button
+             class="navbar-toggler"
+             type="button"
+             data-toggle="collapse"
+             data-target="#navbarNavAltMarkup"
+             aria-controls="navbarNavAltMarkup"
+             aria-expanded="false"
+             aria-label="Toggle navigation"
+           >
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+             <div class="navbar-nav">
+               <a class="nav-item nav-link active" id="navItem1" href="index.html"
+                 >Home<span class="sr-only">(current)</span></a
+               >
+               <a class="nav-item nav-link" id="navItem2" href="blogdetails.html"
+                 >Blogs</a
+               >
+               <a class="nav-item nav-link" id="navItem3" href="contactUs.html"
+                 >Contact Us</a
+               >
+             </div>
+           </div>
+         </div>
+       </nav>
+<div class="container mt-5 mb-5 pt-5">
+    <div class="row">
+        <div class="col-12">
+            <h1>hai</h1>
+        </div>
+    </div>
+</div>
+        <!-- Footer -->
+    <div>
+      <footer class="bg-dark text-center text-white">
+        <div class="navbar-nav d-flex flex-row">
+          <a
+            class="nav-item nav-link active p-4 footer-links text-white"
+            href="aboutUs.html"
+            >About Us</a
+          >
+          <a class="nav-item nav-link pt-4 text-white" href="privacypolicy.html"
+            >Privacy Policy</a
+          >
+          <a class="nav-item nav-link p-4 text-white" href="loginpage.html"
+            >Login</a
+          >
+        </div>
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <!-- Github -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/"
+            >MDBootstrap.com</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+
+   </body>
+</html>

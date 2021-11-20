@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.blog-home-page-logo {
+  width: 60px;
+  height: 40px;
+}
+
+.home-page-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.carousel-images {
+  height: 550px;
+  width: 100%;
+}
+.latest-blog-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.latest-blog-card {
+  border-radius: 16px;
+}
+.categories-card-images {
+  width: 110px;
+  height: 80px;
+}
+.latest-blog-card-images {
+  height: 200px;
+}
+.latest-blogs-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-card-details {
+  padding: 25px;
+}
+.some-content-image {
+  height: 300px;
+  width: 100%;
+}
+.some-content-card {
+  padding: 25px;
+  border-radius: 20px;
+}
+.footer-section {
+  color: black;
+}
+
+.menu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.custom-button {
+  color: white;
+  background-image: linear-gradient(#d0b200, #a58d00);
+  width: 200px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin: 50px;
+}
+.user-list {
+  list-style-type: none;
+  padding: 20px;
+}

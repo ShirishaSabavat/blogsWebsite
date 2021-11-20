@@ -1,0 +1,97 @@
+.blog-home-page-logo {
+  width: 60px;
+  height: 40px;
+}
+.comments-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-page-title {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 700;
+}
+.likeButtonWhite{
+    border: 1px solid rgb(241, 237, 237);
+    background-color: white;
+    padding: 5px;
+    width: 80px;
+    border-radius: 8px;
+}
+.likeButtonBlue{
+    border: 1px solid rgb(241, 237, 237);
+    background-color: skyblue;
+    padding: 5px;
+    width: 80px;
+    border-radius: 8px;
+    color: white;
+}
+
+.image-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  padding-top: 0px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+
+.blogPage-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.blogPage-comment {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+.comment-box {
+  border: 1px solid skyblue;
+  padding: 15px;
+  border-radius: 0px 22px 22px 22px;
+}
+
+.custom-button {
+  color: white;
+  background-color: lightseagreen;
+  width: 100px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+
+
+
+.related-blogs-boxes{
+  box-sizing: border-box;
+  border: 0px solid;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.dt-ar-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.related-blogs-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 14px;
+}
